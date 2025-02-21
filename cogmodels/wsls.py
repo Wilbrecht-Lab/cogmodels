@@ -2,9 +2,6 @@ from calendar import c
 import numpy as np
 import pandas as pd
 import scipy
-import patsy
-from scipy.special import expit
-
 from cogmodels.base import CogModel2ABT_BWQ, CogParam
 from cogmodels.utils import Probswitch_2ABT
 

@@ -3,6 +3,9 @@ from cogmodels.base import CogModel2ABT_BWQ
 
 
 class BayesianModel(CogModel2ABT_BWQ):
+    """
+    Base class defining inference operations for Bayesian models.
+    """
     def __init__(self):
         super().__init__()
 

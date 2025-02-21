@@ -8,11 +8,7 @@ from tqdm import tqdm
 import seaborn as sns
 import matplotlib.pyplot as plt
 import psutil
-
-CACHE_FOLDER = r"D:\U19\data\Probswitch\caching"
-DATA_ARG = "full_20230807"
-VERSION = "v16"
-VERSION_SESSION = 'v17'
+from cogmodels.configs import *
 
 np.random.seed(230)
 

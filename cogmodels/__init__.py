@@ -7,6 +7,7 @@ from cogmodels.rl import *
 from cogmodels.utils import *
 from cogmodels.meta_rl import *
 from cogmodels.wsls import *
+from cogmodels.configs import *
 
 __author__ = "Albert Qü"
 __version__ = "0.0.1"
